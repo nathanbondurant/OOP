@@ -20,6 +20,9 @@ class BankAccount:
       # from the account.
 
     def withdraw(self, amount):
+      if amount <= 0:
+        print("fool!")
+      else:
         if self.__balance >= amount:
             self.__balance -= amount
         else:
@@ -28,7 +31,7 @@ class BankAccount:
       # The get_balance method returns the
       # account balance.
 
-    def get_balance(self):
+    def get_balance(self): #get method is an accessor method
         return self.__balance
 
 

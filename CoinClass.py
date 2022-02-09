@@ -8,7 +8,7 @@ class Coin:
     # sideup data attribute with 'Heads'.
 
     def __init__(self): #always the first method
-        self.sideup = 'Heads'
+        self.__sideup = 'Heads'
         #self.bullet
         #self.damage
 
@@ -19,12 +19,12 @@ class Coin:
 
     def toss(self):
         if random.randint(0, 1) == 0:
-            self.sideup = 'Heads'
+            self.__sideup = 'Heads'
         else:
-            self.sideup = 'Tails'
+            self.__sideup = 'Tails'
 
     # The get_sideup method returns the value
     # referenced by sideup.
 
     def get_sideup(self):
-            return self.sideup
+            return self.__sideup
