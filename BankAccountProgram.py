@@ -3,7 +3,7 @@
 import BankAccountClass as bc
 
 def main():
-    
+
    # Get the starting balance.
    start_bal = float(input('Enter your starting balance: '))
 

@@ -10,9 +10,6 @@ def main():
 
     phone = cp.CellPhone(m,mod,rp)
 
-    phone.set_manufact(m)
-    phone.set_model(mod)
-    phone.set_retail_price(rp)
 
     print("The manufacturer is: ", phone.get_manufact())
     print("The model is: ", phone.get_model())
