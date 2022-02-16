@@ -9,7 +9,7 @@ def main():
     rp = input("What is the retail price?")
 
     phone = cp.CellPhone(m,mod,rp)
-
+    #iphone= cp.CellPhone('Apple', 'iPhone 10', '$500')
 
     print("The manufacturer is: ", phone.get_manufact())
     print("The model is: ", phone.get_model())
