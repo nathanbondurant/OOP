@@ -28,6 +28,5 @@ class Student:
        else:
            print("Registration Open: 11/1 - 11/3")
 
-
     
 
